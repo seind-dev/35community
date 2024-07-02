@@ -48,6 +48,15 @@ body {
     width: 20px;
 }
 
+.discordIMG {
+    height: 20px;
+    width: 20px;
+}
+.connectIMG {
+    height: 20px;
+    width: 20px;
+}
+
 .connectServer,
 .discordInvite,
 .shopier {
