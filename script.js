@@ -7,7 +7,7 @@ fetch('https://servers-frontend.fivem.net/api/servers/single/8vdrob')
     })
     .then(data => {
         const clientCount = data.Data.selfReportedClients;
-        document.getElementById('activePlayers').textContent = `AKTİF OYUNCULAR ${clientCount}`;
+        document.getElementById('activePlayers').textContent = `AKTİF ${clientCount} OYUNCU`;
     })
     .catch(error => {
         console.error('There was a problem with the fetch operation:', error);
