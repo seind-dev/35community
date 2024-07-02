@@ -107,7 +107,7 @@ body {
 
 .tooltip {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(15, 18, 25, 0.9);
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -127,7 +127,7 @@ body {
     transform: translateX(-50%);
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent rgba(0, 0, 0, 0.8) transparent;
+    border-color: transparent transparent rgba(15, 18, 25, 0.9) transparent;
 }
 
 
