@@ -109,6 +109,7 @@ body {
     position: absolute;
     background-color: rgba(15, 18, 25, 0.9);
     backdrop-filter: blur(10px);
+    border: 1px solid #8f8f8f;
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
