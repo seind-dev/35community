@@ -28,7 +28,7 @@ body {
     height: 100%;
     z-index: -1;
     filter: grayscale(100%) blur(25px);
-    object-fit: cover; /* Görselin boyutunu korumak için */
+    object-fit: cover;
 }
 
 .navbar {
@@ -38,6 +38,7 @@ body {
     height: 55px;
     background-color: rgba(15, 18, 25, 0.9);
     display: flex;
+    justify-content: space-between; /* Alanı eşit dağıtmak için */
     align-items: center;
     padding: 0 20px;
     backdrop-filter: blur(10px);
@@ -51,7 +52,7 @@ body {
 .connectServer,
 .discordInvite,
 .shopier {
-    color: #ffffff; /* Başlangıç rengi beyaz olsun */
+    color: #ffffff;
     transition-property: color;
     transition-duration: 0.15s;
     transition-timing-function: cubic-bezier(.4,0,.2,1);
@@ -60,7 +61,7 @@ body {
 .connectServer:hover,
 .discordInvite:hover,
 .shopier:hover {
-    color: #00dfbd; /* Mouse üzerine geldiğinde rengi değiştir */
+    color: #00dfbd;
 }
 
 .activePlayers {
@@ -70,6 +71,7 @@ body {
 .activePlayers::hover {
     cursor: default;
 }
+
 .logo {
     flex: 1;
 }
@@ -79,8 +81,11 @@ body {
     height: 50px;
 }
 
-.navbarRightMenu {
+.navbarCenter {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; /* Orta kısmın genişlemesini sağlamak için */
     gap: 20px;
 }
 
@@ -98,6 +103,12 @@ body {
 
 .navbarCenter a:hover {
     color: #00dfbd;
+}
+
+.navbarRightMenu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .navbarRightMenu span, .navbarRightMenu a {
