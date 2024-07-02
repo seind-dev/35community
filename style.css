@@ -43,6 +43,11 @@ body {
     backdrop-filter: blur(10px);
 }
 
+.shopierIMG {
+    height: 12px;
+    width: 12px;
+}
+
 .connectServer,
 .discordInvite,
 .shopier {
