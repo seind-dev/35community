@@ -84,6 +84,10 @@ body {
     gap: 20px;
 }
 
+.navbarCenter {
+    align-items: center;
+}
+
 .navbarRightMenu span, .navbarRightMenu a {
     font-size: .75rem;
     line-height: 1rem;
