@@ -47,7 +47,7 @@ body {
 .navbar-icons {
     width: 20px;
     height: auto;
-    transition: box-shadow 0.3s ease;
+    transition: box-shadow 1s ease;
 }
 
 .connectServer,
@@ -55,7 +55,7 @@ body {
 .shopier {
     color: #ffffff;
     transition-property: color;
-    transition-duration: 0.15s;
+    transition-duration: 0.3s;
     transition-timing-function: cubic-bezier(.4,0,.2,1);
 }
 
@@ -124,7 +124,7 @@ body {
     font-size: 0.75rem;
     visibility: hidden;
     opacity: 0;
-    transition: opacity 0.2s;
+    transition: opacity 1s;
     z-index: 20;
     transform: translateY(50px);
 }
