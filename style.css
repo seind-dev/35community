@@ -144,6 +144,33 @@ body {
     text-decoration: none;
 }
 
+.main-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.main-container {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.main-title {
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.main-subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 10px 0 20px;
+}
+
 .footer-wrap {
     position: sticky;
     bottom: 0;
