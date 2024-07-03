@@ -238,13 +238,15 @@ body {
 }
 
 
+.socials-youtube {
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+}
 
 .socials-youtube-svg {
     color: #fff;
     margin-right: 25px;
-    transition-property: color;
-    transition-duration: 0.3s;
-    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
     transition: filter 1s ease;
 }
 
