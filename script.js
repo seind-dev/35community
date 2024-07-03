@@ -1,17 +1,23 @@
-fetch('https://servers-frontend.fivem.net/api/servers/single/8vdrob')
-    .then(response => {
-        if (!response.ok) {
-            throw new Error('Network response was not ok ' + response.statusText);
-        }
-        return response.json();
-    })
-    .then(data => {
-        const clientCount = data.Data.selfReportedClients;
-        document.getElementById('activePlayers').textContent = `AKTİF ${clientCount} OYUNCU`;
-    })
-    .catch(error => {
-        console.error('There was a problem with the fetch operation:', error);
-    });
+function fetchPlayerCount() {
+    fetch('https://servers-frontend.fivem.net/api/servers/single/8vdrob')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+            return response.json();
+        })
+        .then(data => {
+            const clientCount = data.Data.selfReportedClients;
+            document.getElementById('activePlayers').textContent = `AKTİF ${clientCount} OYUNCU`;
+        })
+        .catch(error => {
+            console.error('There was a problem with the fetch operation:', error);
+        });
+}
+
+fetchPlayerCount();
+
+setInterval(fetchPlayerCount, 30000);
 
 document.addEventListener('DOMContentLoaded', function () {
     const tooltips = document.querySelectorAll('.navbarCenter a');
@@ -29,13 +35,13 @@ document.addEventListener('DOMContentLoaded', function () {
             tooltip.style.opacity = '0';
         });
     });
-    
+
     document.getElementById('join-button').addEventListener('click', function (event) {
         event.preventDefault();
-    
+
         const mainWrap = document.getElementById('main-wrap');
         mainWrap.innerHTML = '';
-    
+
         const iframe = document.createElement('iframe');
         iframe.src = 'https://docs.google.com/forms/d/e/1FAIpQLSc7zpF_pG-orkQAxEkA0uziH7tz7Kw9TRre2FrlmxVFiei_1g/viewform?embedded=true';
         iframe.width = '640';
@@ -44,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
         iframe.marginHeight = '0';
         iframe.marginWidth = '0';
         iframe.textContent = 'Yükleniyor...';
-    
+
         mainWrap.appendChild(iframe);
     });
 });

@@ -56,7 +56,7 @@ body {
     color: #ffffff;
     transition-property: color;
     transition-duration: 0.3s;
-    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
 }
 
 .connectServer:hover,
@@ -104,7 +104,7 @@ body {
     line-height: 1rem;
     text-decoration: none;
     transition: color .50s ease-in-out;
-    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
 }
 
 .navbarCenter a:hover {
@@ -112,7 +112,7 @@ body {
 }
 
 .navbar-icons:hover {
-    filter: drop-shadow(0px 0px 10px rgba(0,223,189,1));
+    filter: drop-shadow(0px 0px 10px rgba(0, 223, 189, 1));
 }
 
 .tooltip {
@@ -146,7 +146,8 @@ body {
     gap: 20px;
 }
 
-.navbarRightMenu span, .navbarRightMenu a {
+.navbarRightMenu span,
+.navbarRightMenu a {
     font-size: .75rem;
     line-height: 1rem;
     color: white;
@@ -176,7 +177,7 @@ body {
     padding: 20px 0;
 }
 
-.main-title span{
+.main-title span {
     color: #fff;
 }
 
