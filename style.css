@@ -195,7 +195,7 @@ body {
 }
 
 .footer-wrap {
-    position: sticky;
+    position: absolute;
     bottom: 0;
     z-index: 10;
     height: 55px;
