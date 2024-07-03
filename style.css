@@ -239,7 +239,7 @@ body {
 
 
 .socials-youtube a {
-    transition: color .50s ease-in-out;
+    transition: color 10s ease-in-out;
     transition-timing-function: cubic-bezier(.4, 0, .2, 1);
 }
 
