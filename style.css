@@ -240,6 +240,7 @@ body {
 .socials-youtube-svg {
     color: #fff;
     margin-right: 25px;
+    transition: color .50s ease-in-out;
 }
 
 .socials-youtube-svg:hover {
