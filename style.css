@@ -198,6 +198,7 @@ body {
     font-size: 10px;
     color: #00dfbe2f;
     text-align: center;
+    align-items: center;
 }
 
 .footer-wrap {
