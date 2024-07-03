@@ -194,6 +194,12 @@ body {
     color: #00dfbd;
 }
 
+.seind {
+    position: absolute;
+    left: 0;
+    font-size: 10px;
+}
+
 .footer-wrap {
     position: sticky;
     bottom: 0;
