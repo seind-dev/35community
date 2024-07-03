@@ -152,6 +152,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: calc(100vh - 55px);
     color: white;
     text-align: center;
 }
@@ -194,8 +195,7 @@ body {
 }
 
 .footer-wrap {
-    position: absolute;
-    width: 100%;
+    position: sticky;
     bottom: 0;
     z-index: 10;
     height: 55px;
