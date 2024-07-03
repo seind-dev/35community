@@ -150,7 +150,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 55px);
     background-color: rgba(15, 18, 25, 0.9);
     color: white;
     text-align: center;
