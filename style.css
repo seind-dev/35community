@@ -198,8 +198,8 @@ body {
     position: absolute;
     font-size: 10px;
     color: #00dfbe2f;
-    left: 50%;
-    transform: translateY(-40%);
+    left: 45%;
+    transform: translateY(200%);
 }
 
 .footer-wrap {
