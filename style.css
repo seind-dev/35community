@@ -146,7 +146,52 @@ body {
     text-decoration: none;
 }
 
-/* Footer Style */
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 55px);
+    background-color: rgba(15, 18, 25, 0.9);
+    color: white;
+    text-align: center;
+}
+
+.main-container {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.main-title {
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.main-subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 10px 0 20px;
+}
+
+.join-button {
+    display: inline-block;
+    background-color: #00dfbd;
+    color: #0f1219;
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.join-button:hover {
+    background-color: white;
+    color: #00dfbd;
+}
+
 footer {
     background-color: rgba(15, 18, 25, 0.9);
     color: white;
@@ -170,14 +215,14 @@ footer .container {
 }
 
 footer .copyright-text {
-    font-size: 0.875rem; /* Daha küçük metin boyutu */
+    font-size: 0.875rem;
     line-height: 1.5;
 }
 
 footer .copyright-text a {
     color: #00dfbd;
     text-decoration: none;
-    margin-left: 5px; /* Linkten önceki boşluk */
+    margin-left: 5px;
     transition: color 0.15s ease-in-out;
     transition-timing-function: cubic-bezier(.4,0,.2,1);
 }
