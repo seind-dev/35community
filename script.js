@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-document.querySelector('.join-button').addEventListener('click', function (event) {
+document.getElementById('join-button').addEventListener('click', function (event) {
     event.preventDefault();
 
     const mainWrap = document.getElementById('main-wrap');

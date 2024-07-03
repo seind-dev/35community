@@ -198,6 +198,7 @@ body {
 .join-button:hover {
     background-color: white;
     color: #00dfbd;
+    cursor: default;
 }
 
 .seind {
