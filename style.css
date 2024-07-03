@@ -176,6 +176,10 @@ body {
     padding: 20px 0;
 }
 
+.main-title span{
+    color: #fff;
+}
+
 .main-subtitle {
     font-size: 1.5rem;
     font-weight: 400;
