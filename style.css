@@ -150,6 +150,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: calc(100vh - 55px); /* Navbar yüksekliği kadar ayarlanır */
+    background-color: rgba(15, 18, 25, 0.9);
     color: white;
     text-align: center;
 }
@@ -190,50 +192,30 @@ body {
     color: #00dfbd;
 }
 
+/* Footer */
 footer {
-    background-color: rgba(15, 18, 25, 0.9);
+    background-color: #0f1219;
     color: white;
-    padding: 20px 0;
     text-align: center;
-    position: relative;
-    width: 100%;
+    padding: 20px 0;
+    position: absolute;
     bottom: 0;
+    width: 100%;
 }
 
-footer .copyright-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-footer .container {
-    max-width: 1200px;
+.copyright-wrap {
     margin: 0 auto;
-    padding: 0 20px;
+    max-width: 1200px;
+    padding: 10px;
 }
 
-footer .copyright-text {
-    font-size: 0.875rem;
-    line-height: 1.5;
-}
-
-footer .copyright-text a {
+footer a {
     color: #00dfbd;
     text-decoration: none;
-    margin-left: 5px;
-    transition: color 0.15s ease-in-out;
-    transition-timing-function: cubic-bezier(.4,0,.2,1);
 }
 
-footer .copyright-text a:hover {
-    color: white;
-}
-
-footer .container::before,
-footer .container::after {
-    content: "";
-    display: table;
-    clear: both;
+footer a:hover {
+    text-decoration: underline;
 }
 
 
