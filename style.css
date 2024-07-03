@@ -239,20 +239,19 @@ body {
 
 
 .socials-youtube {
-    transition-property: color;
-    transition-duration: 0.3s;
-    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition: color 0.3s cubic-bezier(.4, 0, .2, 1);
 }
 
 .socials-youtube-svg {
-    color: #fff;
+    fill: #fff;
     margin-right: 25px;
-    transition: filter 1s ease;
+    transition: fill 0.3s ease;
 }
 
 .socials-youtube-svg:hover {
-    color: #00dfbd;
+    fill: #00dfbd;
 }
+
 
 .footer-wrap a:hover {
     text-shadow: -1px 0px 11px #00dfbd;
