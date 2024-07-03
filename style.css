@@ -59,8 +59,14 @@ body {
     transition-timing-function: cubic-bezier(.4, 0, .2, 1);
 }
 
-.connectServer:hover,
-.discordInvite:hover,
+.connectServer:hover {
+    color: #FF7100;
+}
+
+.discordInvite:hover {
+    color: #5865F2;
+}
+
 .shopier:hover {
     color: #00dfbd;
 }
