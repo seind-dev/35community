@@ -240,7 +240,6 @@ body {
 .socials-youtube-svg {
     color: #fff;
     margin-right: 25px;
-    transition: filter 1s ease;
     transition: color 1s ease-in-out;
 }
 
