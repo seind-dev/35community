@@ -199,8 +199,7 @@ body {
     font-size: 10px;
     color: #00dfbe2f;
     left: 50%;
-    transform: translateY(-50%);
-    padding-left: 5px;
+    transform: translateY(-40%);
 }
 
 .footer-wrap {
@@ -219,8 +218,6 @@ body {
 .copyright-wrap {
     margin: 0 auto;
     max-width: 1200px;
-    left: 50%;
-    transform: translateY(-50%);
     padding: 10px;
 }
 
@@ -230,7 +227,7 @@ body {
 }
 
 .footer-wrap a:hover {
-    text-decoration: dotted;
+    text-decoration: underline;
 }
 
 ::-webkit-scrollbar {
