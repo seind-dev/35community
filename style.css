@@ -237,6 +237,11 @@ body {
     text-decoration: none;
 }
 
+.socials-youtube {
+    color: #fff;
+    margin-right: 25px;
+}
+
 .footer-wrap a:hover {
     text-shadow: -1px 0px 11px #00dfbd;
 }
