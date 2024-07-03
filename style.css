@@ -198,6 +198,8 @@ body {
     position: absolute;
     left: 0;
     font-size: 10px;
+    color: #00dfbe2f;
+    padding-left: 5px;
 }
 
 .footer-wrap {
