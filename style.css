@@ -242,6 +242,10 @@ body {
     margin-right: 25px;
 }
 
+.socials-youtube-svg:hover {
+    color: #00dfbd;
+}
+
 .footer-wrap a:hover {
     text-shadow: -1px 0px 11px #00dfbd;
 }
