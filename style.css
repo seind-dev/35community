@@ -113,10 +113,6 @@ body {
     transition-timing-function: cubic-bezier(.4, 0, .2, 1);
 }
 
-.navbarCenter a:hover {
-    color: #00dfbd;
-}
-
 .navbar-icons:hover {
     filter: drop-shadow(0px 0px 10px rgba(0, 223, 189, 1));
 }
