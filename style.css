@@ -68,7 +68,7 @@ body {
 }
 
 .shopier:hover {
-    color: #00dfbd;
+    color: #5865F2;
 }
 
 .activePlayers {
@@ -113,15 +113,11 @@ body {
     transition-timing-function: cubic-bezier(.4, 0, .2, 1);
 }
 
-.connectServer:hover {
-    filter: drop-shadow(0px 0px 10px #FF7100);
+.navbarCenter a:hover {
+    color: #00dfbd;
 }
 
-.discordInvite:hover {
-    filter: drop-shadow(0px 0px 10px #5865F2);
-}
-
-.shopier:hover {
+.navbar-icons:hover {
     filter: drop-shadow(0px 0px 10px rgba(0, 223, 189, 1));
 }
 
