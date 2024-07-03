@@ -103,7 +103,7 @@ body {
     font-size: 0.75rem;
     line-height: 1rem;
     text-decoration: none;
-    transition: color .15s ease-in-out;
+    transition: color 1s ease-in-out;
     transition-timing-function: cubic-bezier(.4,0,.2,1);
 }
 
