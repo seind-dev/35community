@@ -150,8 +150,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 55px); /* Navbar yüksekliği kadar ayarlanır */
-    background-color: rgba(15, 18, 25, 0.9);
     color: white;
     text-align: center;
 }
@@ -194,7 +192,7 @@ body {
 
 /* Footer */
 footer {
-    background-color: #0f1219;
+    background-color: rgba(15, 18, 25, 0.9);
     color: white;
     text-align: center;
     padding: 20px 0;
