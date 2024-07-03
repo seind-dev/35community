@@ -247,6 +247,7 @@ body {
     color: #fff;
     margin-right: 25px;
     transition: filter 1s ease;
+    transition: color 10s ease-in-out;
 }
 
 .socials-youtube-svg:hover {
