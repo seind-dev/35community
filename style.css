@@ -70,6 +70,7 @@ body {
 
 .activePlayers:hover {
     cursor: default;
+    text-shadow: -1px 0px 11px #00dfbd;
 }
 
 .logo {
@@ -107,6 +108,7 @@ body {
 
 .navbarCenter a:hover {
     color: #00dfbd;
+    text-shadow: -1px 0px 11px #00dfbd;
 }
 
 .tooltip {
@@ -199,6 +201,7 @@ body {
     color: #00dfbe2f;
     text-align: center;
     align-items: center;
+    text-shadow: -1px 0px 11px #00dfbe13;
 }
 
 .footer-wrap {
@@ -227,6 +230,7 @@ body {
 
 .footer-wrap a:hover {
     text-decoration: underline;
+    text-shadow: -1px 0px 11px #00dfbd;
 }
 
 ::-webkit-scrollbar {
