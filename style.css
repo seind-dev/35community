@@ -221,9 +221,9 @@ body {
     background-color: #00bfa6;
 }
 
-
 .left-container {
     flex: 1;
+    right: 0;
     max-width: 600px;
     margin-left: 20px;
     padding: 20px;
