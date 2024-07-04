@@ -169,53 +169,73 @@ body {
 
 .main-wrap {
     display: flex;
-    justify-content: center;
-    height: calc(100vh - 55px);
-    color: white;
-    text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-.main-container {
-    max-width: 800px;
+.main {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
 }
 
-.main-title {
-    color: #00dfbd;
-    font-size: 3rem;
-    font-weight: 900;
-    margin: 0;
-    padding: 20px 0;
+.main-container {
+    flex: 1;
 }
 
-.main-title span {
+.left-container {
+    flex: 1;
+    max-width: 600px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: #fff;
 }
 
-.main-subtitle {
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin: 0;
-    padding: 10px 0 20px;
+.section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 24px;
+    color: #00dfbd;
+    margin-bottom: 10px;
+}
+
+.section p,
+.section li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.section ul {
+    padding-left: 20px;
+}
+
+.section ul li {
+    list-style-type: disc;
 }
 
 .join-button {
     display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
     background-color: #00dfbd;
-    color: #0f1219;
-    padding: 15px 30px;
-    font-size: 1rem;
-    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
     text-decoration: none;
-    border-radius: 50px;
-    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
 .join-button:hover {
-    background-color: white;
-    color: #00dfbd;
-    cursor: default;
+    background-color: #00bfa6;
 }
+
 
 .seind {
     font-size: 10px;
