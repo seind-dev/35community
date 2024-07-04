@@ -208,6 +208,7 @@ body {
 .join-button {
     display: inline-block;
     padding: 10px 20px;
+    align-items: center;
     margin-top: 20px;
     background-color: #00dfbd;
     color: #fff;
