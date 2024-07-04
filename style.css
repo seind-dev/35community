@@ -176,13 +176,51 @@ body {
 .main {
     flex: 1;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start; /* Solda hizalama */
+    align-items: center; /* Ortada dikey hizalama */
     padding: 20px;
 }
 
 .main-container {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Solda hizalama */
+    justify-content: center;
+    max-width: 600px;
 }
+
+.main-title {
+    font-size: 48px; /* Daha büyük yazı boyutu */
+    margin: 0;
+    color: #fff;
+}
+
+.main-title span {
+    color: #00dfbd;
+}
+
+.main-subtitle {
+    font-size: 24px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.join-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #00dfbd;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.join-button:hover {
+    background-color: #00bfa6;
+}
+
 
 .left-container {
     flex: 1;
@@ -225,23 +263,6 @@ body {
     color: #00bfa6;
     text-decoration: none;
 }
-
-.join-button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-top: 20px;
-    background-color: #00dfbd;
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.join-button:hover {
-    background-color: #00bfa6;
-}
-
 
 .seind {
     font-size: 10px;
