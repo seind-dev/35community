@@ -221,6 +221,11 @@ body {
     list-style-type: disc;
 }
 
+.section a {
+    color: #00bfa6;
+    text-decoration: none;
+}
+
 .join-button {
     display: inline-block;
     padding: 10px 20px;
