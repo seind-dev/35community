@@ -222,17 +222,15 @@ body {
 }
 
 .left-container {
+    flex: 1;
     max-width: 600px;
+    margin-left: 20px;
     padding: 20px;
     background-color: rgba(15, 18, 25, 0.9);
     backdrop-filter: blur(10px);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: #fff;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    bottom: 20px;
 }
 
 .section {
