@@ -176,21 +176,21 @@ body {
 .main {
     flex: 1;
     display: flex;
-    justify-content: flex-start; /* Solda hizalama */
-    align-items: center; /* Ortada dikey hizalama */
+    justify-content: flex-start;
+    align-items: center;
     padding: 20px;
 }
 
 .main-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Solda hizalama */
+    align-items: flex-start;
     justify-content: center;
     max-width: 600px;
 }
 
 .main-title {
-    font-size: 48px; /* Daha büyük yazı boyutu */
+    font-size: 48px;
     margin: 0;
     color: #fff;
 }

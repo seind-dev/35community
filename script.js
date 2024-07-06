@@ -46,9 +46,6 @@ document.addEventListener('DOMContentLoaded', function () {
         iframe.src = 'https://docs.google.com/forms/d/e/1FAIpQLSc7zpF_pG-orkQAxEkA0uziH7tz7Kw9TRre2FrlmxVFiei_1g/viewform?embedded=true';
         iframe.width = '640';
         iframe.height = '640';
-        iframe.frameBorder = '0';
-        iframe.marginHeight = '0';
-        iframe.marginWidth = '0';
         iframe.textContent = 'Yükleniyor...';
 
         mainWrap.appendChild(iframe);
